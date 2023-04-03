@@ -221,10 +221,10 @@
     color: #fff;
     font-size: 2em;
     
-    font-family: 'Alkatra', cursive;
+    font-family: Roboto,sans-serif;
   }
   .subheadline {
-    font-family: 'Alkatra', cursive;
+    font-family: Roboto,sans-serif;
     position: absolute;
     top: 15%;
     left: 50%;
