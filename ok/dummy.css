@@ -12,7 +12,78 @@
   #haha::selection{
     color: #000;
   }
+    .clg {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
   
+  .clg-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col-12 {
+    width: 100%;
+  }
+  
+  .col-md-4 {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+  }
+  
+  .clg-image-container {
+    position: relative;
+  }
+  
+ .clg-image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .clg-text-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0,1);
+    padding: 10px;
+  }
+  .clg-text-container p {
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    
+    
+  }
+  
+  @media only screen and (max-width: 1020px) {
+    .col-md-4 {
+      width: calc(50% - 20px);
+    }
+  }
+  
+  @media only screen and (max-width: 720px) {
+    .col-md-4 {
+      width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 480px) {
+    .clg-text-container p {
+      font-size: 12px;
+    }
+  }
+  
+  @media only screen and (max-width: 320px) {
+    .clg-text-container p {
+      font-size: 10px;
+    }
+  }
+ 
   
   
   *{
